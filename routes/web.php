@@ -48,3 +48,6 @@ return response()->json($array);
     //http://blog2.dev/sumarValoresOpcional/2
     
 })->where(['numero'=>'[0-9]+']);
+
+require __DIR__ . '/modules/basics.php';
+require __DIR__ . '/modules/eloquens.php';
