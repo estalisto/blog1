@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Category extends Model
 {
-    //
+    //grz9759
     use SoftDeletes;
     protected $table='categories';
     //protected $connection='mysql';
